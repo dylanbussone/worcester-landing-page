@@ -23,14 +23,8 @@ body > header {
     padding: 0;
     backdrop-filter: blur(10px);
 
-    nav {
-        padding: 0 calc(2 * var(--pico-nav-element-spacing-horizontal));
-
-        a,
-        a:hover,
-        a:active {
-            color: #eee;
-        }
+    nav ul li a.active {
+        text-decoration: underline;
     }
 }
 
@@ -49,5 +43,13 @@ main {
         h1 {
             margin: 0;
         }
+    }
+
+    img.home {
+        max-height: 400px;
+        border-radius: 0.5rem;
+    }
+
+    section.welcome {
     }
 }
