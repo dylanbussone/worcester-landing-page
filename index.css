@@ -36,6 +36,11 @@ main {
         align-items: center;
         gap: 1rem;
 
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
         img.logo {
             width: 75px;
         }
